@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const page = window.location.pathname.split("/").pop().split(".")[0] || "index";
+    const page = window.location.pathname.split("/").pop().split(".")[0] || "index"; // Detects the current page
 
     let jsonFile = "";
+    
     switch (page) {
         case "index":
             jsonFile = "overview.json";
@@ -21,44 +22,28 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(data => {
             console.log(`✅ Loaded ${jsonFile} successfully`, data);
 
-            if (page === "timeline") {
+            if (page === "index") {
+                insertFormattedOverview(data.general_overview);
+                updateStats(data);
+                createCharts(data.metadata_for_graphs);
+                populateTables(data);
+                animateNumbers();
+            } else if (page === "timeline") {
                 document.getElementById("timeline-description").innerText = data.description;
-                renderTimeline(data.events);
+                // Render timeline, flowchart, and infrastructure details
+                renderTimeline(data.milestones);
+                renderSubmarineCables(data.submarine_cables);
+                renderInfrastructure(data.infrastructure_expansion);
+                renderMermaidFlowchart(data.milestones);
+            } else if (page === "future") {
+                renderFuturePredictions(data);
             }
         })
         .catch(error => console.error(`❌ Error fetching ${jsonFile}:`, error));
 });
 
-// Function to Render Timeline
-function renderTimeline(events) {
-    const timelineContainer = document.getElementById("timeline");
-
-    if (!events || events.length === 0) {
-        timelineContainer.innerHTML = "<p>No timeline data available.</p>";
-        return;
-    }
-
-    events.forEach(event => {
-        const eventElement = document.createElement("div");
-        eventElement.classList.add("timeline-event");
-
-        eventElement.innerHTML = `
-            <div class="timeline-year">${event.year}</div>
-            <div class="timeline-content">
-                <div class="timeline-icon">${event.icon}</div>
-                <h3>${event.event}</h3>
-                <p><strong>${event.date}</strong></p>
-                <p>${event.details}</p>
-                <img src="${event.image}" class="timeline-image" alt="${event.event}">
-            </div>
-        `;
-
-        timelineContainer.appendChild(eventElement);
-    });
-
-    console.log("✅ Timeline Events Rendered Successfully");
-}
-
+// Index.html Page Functions
+// Insert formatted overview text
 function insertFormattedOverview(text) {
     const overviewSection = document.getElementById("general-overview");
     overviewSection.innerHTML = `
@@ -274,4 +259,116 @@ function animateNumbers() {
             }
         }, 20);
     });
+}
+
+
+
+// Timeline.html Page Functions
+// **Function to Render Timeline**
+function renderTimeline(events) {
+    const timelineContainer = document.getElementById("timeline");
+
+    if (!timelineContainer) {
+        console.error("❌ Timeline container not found in HTML!");
+        return;
+    }
+
+    if (!events || events.length === 0) {
+        timelineContainer.innerHTML = "<p style='color: red;'>No timeline data available.</p>";
+        return;
+    }
+
+    timelineContainer.innerHTML = ""; // Clear previous content
+
+    events.forEach(event => {
+        const eventElement = document.createElement("div");
+        eventElement.classList.add("timeline-event");
+
+        eventElement.innerHTML = `
+            <div class="timeline-year">${event.year}</div>
+            <div class="timeline-content">
+                <div class="timeline-icon">${event.icon}</div>
+                <h3>${event.event}</h3>
+                <p><strong>${event.date}</strong></p>
+                <p>${event.details}</p>
+                <img src="${event.image}" class="timeline-image" alt="${event.event}">
+            </div>
+        `;
+
+        timelineContainer.appendChild(eventElement);
+    });
+
+    // Ensure elements become visible
+    setTimeout(() => {
+        document.querySelectorAll(".timeline-event").forEach(event => {
+            event.classList.add("visible");
+        });
+    }, 100);
+
+    console.log("✅ Timeline Events Rendered Successfully");
+}
+
+// **Function to Render Submarine Cables**
+function renderSubmarineCables(cables) {
+    const timelineContainer = document.getElementById("timeline");
+
+    cables.forEach(cable => {
+        const cableElement = document.createElement("div");
+        cableElement.classList.add("timeline-event");
+
+        cableElement.innerHTML = `
+            <div class="timeline-year">${cable.launch_year}</div>
+            <div class="timeline-content">
+                <div class="timeline-icon">${cable.icon}</div>
+                <h3>${cable.name}</h3>
+                <p><strong>Landing Point:</strong> ${cable.landing_point}</p>
+                <p><strong>Capacity:</strong> ${cable.capacity}</p>
+                <img src="${cable.image}" class="timeline-image" alt="${cable.name}">
+            </div>
+        `;
+
+        timelineContainer.appendChild(cableElement);
+    });
+
+    console.log("✅ Submarine Cables Rendered Successfully");
+}
+
+// **Function to Render Infrastructure Expansion**
+function renderInfrastructure(events) {
+    const timelineContainer = document.getElementById("timeline");
+
+    events.forEach(event => {
+        const infraElement = document.createElement("div");
+        infraElement.classList.add("timeline-event");
+
+        infraElement.innerHTML = `
+            <div class="timeline-year">${event.year}</div>
+            <div class="timeline-content">
+                <div class="timeline-icon">${event.icon}</div>
+                <h3>${event.event}</h3>
+                <p>${event.details}</p>
+                <img src="${event.image}" class="timeline-image" alt="${event.event}">
+            </div>
+        `;
+
+        timelineContainer.appendChild(infraElement);
+    });
+
+    console.log("✅ Infrastructure Expansion Rendered Successfully");
+}
+
+// **Function to Render Mermaid.js Flowchart**
+function renderMermaidFlowchart(events) {
+    if (!events || events.length === 0) {
+        console.warn("⚠️ No data for Mermaid.js flowchart.");
+        return;
+    }
+
+    let mermaidCode = "graph TD;\n";
+    events.forEach(event => {
+        mermaidCode += `  ${event.year}["${event.year} - ${event.event}"] -->|${event.category}| next;\n`;
+    });
+
+    document.getElementById("mermaid-container").innerHTML = `<pre class="mermaid">${mermaidCode}</pre>`;
+    mermaid.init();
 }

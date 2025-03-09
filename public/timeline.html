@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Internet History Timeline</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.0.0/mermaid.min.js"></script>
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -22,9 +23,14 @@
 
     <main>
         <section class="timeline-container">
-            <h2>Major Milestones</h2>
+            <h2>📌 Major Milestones</h2>
             <p id="timeline-description"></p>
-            <div class="timeline" id="timeline"></div>
+            <div id="timeline"></div>
+        </section>
+
+        <section class="flowchart-container">
+            <h2>📍 Internet Evolution Flowchart</h2>
+            <div id="mermaid-container"></div>
         </section>
     </main>
 

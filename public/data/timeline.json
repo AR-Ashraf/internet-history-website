@@ -1,86 +1,148 @@
 {
-    "title": "History of Internet in Bangladesh",
-    "description": "Explore the key milestones that shaped the evolution of the internet in Bangladesh, from the first email services to the widespread broadband connectivity today.",
-    "events": [
+    "title": "Evolution of Internet in Bangladesh",
+    "description": "Explore Bangladesh’s internet journey from its early dial-up days to today's fiber-optic networks and 5G trials. This timeline highlights infrastructure development, mobile expansion, submarine cables, policy reforms, and digital inclusion.",
+    
+    "milestones": [
         {
             "year": "1993",
             "date": "March 1993",
-            "event": "First email services introduced via dial-up Bulletin Board Systems (BBS)",
-            "details": "Bangladesh saw the introduction of email services through Bulletin Board Systems (BBS) in 1993, allowing limited offline email transfers via UUCP.",
+            "event": "First Email Services Introduced",
+            "details": "Bulletin Board Systems (BBS) allowed email transfers via dial-up UUCP, serving under 500 users.",
             "icon": "📩",
-            "image": "images/bbs-1993.jpg"
+            "image": "images/bbs-1993.jpg",
+            "category": "Infrastructure"
         },
         {
             "year": "1996",
             "date": "June 6, 1996",
-            "event": "First commercial ISP launched",
-            "details": "The first commercial internet service was introduced using VSAT technology, enabling direct internet access for businesses and individuals.",
+            "event": "First Commercial ISP Launched",
+            "details": "Information Services Network Ltd. (ISN) launched the first ISP using VSAT, marking Bangladesh’s entry into the internet age.",
             "icon": "🌐",
-            "image": "images/first-isp-1996.jpg"
+            "image": "images/first-isp-1996.jpg",
+            "category": "ISPs"
         },
         {
             "year": "2000",
             "date": "October 2000",
-            "event": "Bangladesh received its own .bd country code domain",
-            "details": "The .bd domain was delegated, allowing organizations and individuals to register local websites.",
+            "event": "Bangladesh Received .bd Domain",
+            "details": "The .bd domain was officially delegated for local websites and organizations.",
             "icon": "🔗",
-            "image": "images/dot-bd-2000.jpg"
+            "image": "images/dot-bd-2000.jpg",
+            "category": "Policy Reforms"
         },
         {
             "year": "2004",
             "date": "July 2004",
-            "event": "First Internet Exchange Point (BDIX) established",
-            "details": "BDIX was set up to keep domestic internet traffic within Bangladesh, improving speed and reducing bandwidth costs.",
+            "event": "First Internet Exchange Point (BDIX) Established",
+            "details": "BDIX helped keep local traffic within Bangladesh, reducing bandwidth costs and improving speed.",
             "icon": "🛜",
-            "image": "images/bdix-2004.jpg"
+            "image": "images/bdix-2004.jpg",
+            "category": "Infrastructure"
         },
         {
             "year": "2006",
             "date": "May 2006",
-            "event": "Bangladesh connects to its first submarine cable (SEA-ME-WE 4)",
-            "details": "This was a major milestone, significantly increasing internet bandwidth and reducing dependency on expensive satellite connections.",
+            "event": "Connected to First Submarine Cable (SEA-ME-WE 4)",
+            "details": "A game-changer in reducing internet costs and improving connectivity speed.",
             "icon": "📡",
-            "image": "images/submarine-2006.jpg"
+            "image": "images/submarine-2006.jpg",
+            "category": "Submarine Cables"
         },
         {
             "year": "2009",
             "date": "February 2009",
-            "event": "WiMAX services launched",
-            "details": "WiMAX broadband services were introduced, enabling wireless broadband access in urban areas.",
+            "event": "WiMAX Services Launched",
+            "details": "WiMAX introduced wireless broadband, allowing urban users faster access before 3G became available.",
             "icon": "📶",
-            "image": "images/wimax-2009.jpg"
+            "image": "images/wimax-2009.jpg",
+            "category": "Mobile Technology"
         },
         {
             "year": "2013",
             "date": "October 2013",
-            "event": "3G launched nationwide",
-            "details": "The introduction of 3G technology enabled high-speed mobile internet access, boosting digital services and app-based businesses.",
+            "event": "3G Launched Nationwide",
+            "details": "High-speed mobile internet was introduced, expanding digital services and businesses.",
             "icon": "📲",
-            "image": "images/3g-2013.jpg"
+            "image": "images/3g-2013.jpg",
+            "category": "Mobile Technology"
         },
         {
             "year": "2017",
             "date": "December 2017",
-            "event": "Second submarine cable (SEA-ME-WE 5) connected",
-            "details": "A second submarine cable connection was added, increasing the total bandwidth capacity and ensuring redundancy.",
+            "event": "Second Submarine Cable (SEA-ME-WE 5) Connected",
+            "details": "Added 1,500 Gbps of additional capacity, improving redundancy.",
             "icon": "🌍",
-            "image": "images/submarine-2017.jpg"
+            "image": "images/submarine-2017.jpg",
+            "category": "Submarine Cables"
         },
         {
             "year": "2018",
             "date": "February 2018",
-            "event": "4G services launched",
-            "details": "With 4G connectivity, users experienced faster mobile internet speeds, enhancing the digital economy.",
+            "event": "4G Services Launched",
+            "details": "With 4G, users experienced significantly faster internet speeds, accelerating the digital economy.",
             "icon": "🚀",
-            "image": "images/4g-2018.jpg"
+            "image": "images/4g-2018.jpg",
+            "category": "Mobile Technology"
         },
         {
             "year": "2021",
             "date": "August 2021",
-            "event": "5G trials started",
-            "details": "Teletalk initiated 5G trials in Dhaka, marking the beginning of the next phase of high-speed connectivity in Bangladesh.",
+            "event": "5G Trials Started",
+            "details": "Teletalk initiated 5G trials in Dhaka, marking the beginning of next-gen connectivity.",
             "icon": "⚡",
-            "image": "images/5g-2021.jpg"
+            "image": "images/5g-2021.jpg",
+            "category": "Mobile Technology"
+        }
+    ],
+
+    "submarine_cables": [
+        {
+            "name": "SEA-ME-WE 4",
+            "launch_year": 2006,
+            "capacity": "1.28 Tbps",
+            "landing_point": "Cox’s Bazar",
+            "icon": "🌊",
+            "image": "images/smw4-2006.jpg"
+        },
+        {
+            "name": "SEA-ME-WE 5",
+            "launch_year": 2017,
+            "capacity": "24 Tbps",
+            "landing_point": "Kuakata",
+            "icon": "🌊",
+            "image": "images/smw5-2017.jpg"
+        },
+        {
+            "name": "SEA-ME-WE 6",
+            "launch_year": 2025,
+            "capacity": "Potential 30+ Tbps",
+            "landing_point": "Cox’s Bazar",
+            "icon": "🌊",
+            "image": "images/smw6-2025.jpg"
+        }
+    ],
+
+    "infrastructure_expansion": [
+        {
+            "year": "2002",
+            "event": "Formation of BTRC",
+            "details": "The Bangladesh Telecommunication Regulatory Commission (BTRC) was established to regulate ISPs and telecom growth.",
+            "icon": "🏛",
+            "image": "images/btrc-2002.jpg"
+        },
+        {
+            "year": "2009",
+            "event": "Digital Bangladesh Initiative Launched",
+            "details": "The government introduced the Digital Bangladesh initiative, aiming for widespread e-governance and ICT development.",
+            "icon": "💻",
+            "image": "images/digital-bd-2009.jpg"
+        },
+        {
+            "year": "2010",
+            "event": "Union Digital Centers Established",
+            "details": "Over 4,500 rural digital centers were launched to bridge the digital divide.",
+            "icon": "🏠",
+            "image": "images/udc-2010.jpg"
         }
     ]
 }
