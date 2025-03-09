@@ -33,21 +33,58 @@
         <section class="stats">
             <h2>Key Statistics</h2>
             <div class="stats-grid">
+                
+                <!-- Total Internet Users -->
                 <div class="stat-box">
-                    <p><strong>Total Users:</strong> <span id="total-users" class="counter"></span></p>
+                    <div class="circular-progress">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="40"></circle>
+                            <circle class="progress-bar" cx="50" cy="50" r="40"></circle>
+                            <text x="50" y="50" class="progress-text" id="total-users"></text>
+                        </svg>
+                    </div>
+                    <p class="stat-label">Total Users</p>
                 </div>
+        
+                <!-- Mobile Users -->
                 <div class="stat-box">
-                    <p><strong>Mobile Users:</strong> <span id="mobile-users" class="counter"></span></p>
+                    <div class="circular-progress">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="40"></circle>
+                            <circle class="progress-bar" cx="50" cy="50" r="40"></circle>
+                            <text x="50" y="50" class="progress-text" id="mobile-users"></text>
+                        </svg>
+                    </div>
+                    <p class="stat-label">Mobile Users</p>
                 </div>
+        
+                <!-- Broadband Users -->
                 <div class="stat-box">
-                    <p><strong>Broadband Users:</strong> <span id="broadband-users" class="counter"></span></p>
+                    <div class="circular-progress">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="40"></circle>
+                            <circle class="progress-bar" cx="50" cy="50" r="40"></circle>
+                            <text x="50" y="50" class="progress-text" id="broadband-users"></text>
+                        </svg>
+                    </div>
+                    <p class="stat-label">Broadband Users</p>
                 </div>
+        
+                <!-- Internet Penetration -->
                 <div class="stat-box">
-                    <p><strong>Internet Penetration:</strong> <span id="penetration" class="counter"></span></p>
+                    <div class="circular-progress">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="40"></circle>
+                            <circle class="progress-bar" cx="50" cy="50" r="40"></circle>
+                            <text x="50" y="50" class="progress-text" id="penetration"></text>
+                        </svg>
+                    </div>
+                    <p class="stat-label">Internet Penetration</p>
                 </div>
+        
             </div>
         </section>
-
+        
         <!-- Charts -->
         <section class="charts">
             <h2>Growth Trends</h2>

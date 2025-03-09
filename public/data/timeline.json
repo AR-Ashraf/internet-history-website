@@ -1,10 +1,86 @@
 {
-    "title": "Internet Growth Timeline in Bangladesh",
+    "title": "History of Internet in Bangladesh",
+    "description": "Explore the key milestones that shaped the evolution of the internet in Bangladesh, from the first email services to the widespread broadband connectivity today.",
     "events": [
-        { "year": "1996", "event": "First ISP launched" },
-        { "year": "2006", "event": "Connected to SEA-ME-WE 4" },
-        { "year": "2013", "event": "3G launched" },
-        { "year": "2018", "event": "4G launched" },
-        { "year": "2021", "event": "5G trials started" }
+        {
+            "year": "1993",
+            "date": "March 1993",
+            "event": "First email services introduced via dial-up Bulletin Board Systems (BBS)",
+            "details": "Bangladesh saw the introduction of email services through Bulletin Board Systems (BBS) in 1993, allowing limited offline email transfers via UUCP.",
+            "icon": "📩",
+            "image": "images/bbs-1993.jpg"
+        },
+        {
+            "year": "1996",
+            "date": "June 6, 1996",
+            "event": "First commercial ISP launched",
+            "details": "The first commercial internet service was introduced using VSAT technology, enabling direct internet access for businesses and individuals.",
+            "icon": "🌐",
+            "image": "images/first-isp-1996.jpg"
+        },
+        {
+            "year": "2000",
+            "date": "October 2000",
+            "event": "Bangladesh received its own .bd country code domain",
+            "details": "The .bd domain was delegated, allowing organizations and individuals to register local websites.",
+            "icon": "🔗",
+            "image": "images/dot-bd-2000.jpg"
+        },
+        {
+            "year": "2004",
+            "date": "July 2004",
+            "event": "First Internet Exchange Point (BDIX) established",
+            "details": "BDIX was set up to keep domestic internet traffic within Bangladesh, improving speed and reducing bandwidth costs.",
+            "icon": "🛜",
+            "image": "images/bdix-2004.jpg"
+        },
+        {
+            "year": "2006",
+            "date": "May 2006",
+            "event": "Bangladesh connects to its first submarine cable (SEA-ME-WE 4)",
+            "details": "This was a major milestone, significantly increasing internet bandwidth and reducing dependency on expensive satellite connections.",
+            "icon": "📡",
+            "image": "images/submarine-2006.jpg"
+        },
+        {
+            "year": "2009",
+            "date": "February 2009",
+            "event": "WiMAX services launched",
+            "details": "WiMAX broadband services were introduced, enabling wireless broadband access in urban areas.",
+            "icon": "📶",
+            "image": "images/wimax-2009.jpg"
+        },
+        {
+            "year": "2013",
+            "date": "October 2013",
+            "event": "3G launched nationwide",
+            "details": "The introduction of 3G technology enabled high-speed mobile internet access, boosting digital services and app-based businesses.",
+            "icon": "📲",
+            "image": "images/3g-2013.jpg"
+        },
+        {
+            "year": "2017",
+            "date": "December 2017",
+            "event": "Second submarine cable (SEA-ME-WE 5) connected",
+            "details": "A second submarine cable connection was added, increasing the total bandwidth capacity and ensuring redundancy.",
+            "icon": "🌍",
+            "image": "images/submarine-2017.jpg"
+        },
+        {
+            "year": "2018",
+            "date": "February 2018",
+            "event": "4G services launched",
+            "details": "With 4G connectivity, users experienced faster mobile internet speeds, enhancing the digital economy.",
+            "icon": "🚀",
+            "image": "images/4g-2018.jpg"
+        },
+        {
+            "year": "2021",
+            "date": "August 2021",
+            "event": "5G trials started",
+            "details": "Teletalk initiated 5G trials in Dhaka, marking the beginning of the next phase of high-speed connectivity in Bangladesh.",
+            "icon": "⚡",
+            "image": "images/5g-2021.jpg"
+        }
     ]
 }
