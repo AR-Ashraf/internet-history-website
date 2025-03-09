@@ -1,0 +1,201 @@
+{
+    "general_overview": "Bangladesh’s internet journey began in the early 1990s with limited dial-up email services via bulletin board systems. The first full internet service using a VSAT satellite link was launched in June 1996 [oai_citation_attribution:0‡bcs.org.bd](https://bcs.org.bd/en/blog/evolution-of-the-internet-in-bangladesh#:~:text=that%20year%20with%20offline%20emailing,technology%20to%20provide%20Internet%20service), when the government’s telecom authority (then BTTB) licensed the country’s first private Internet Service Providers (ISPs) [oai_citation_attribution:1‡en.wikipedia.org](https://en.wikipedia.org/wiki/Internet_in_Bangladesh#:~:text=In%20June%201996%20the%20first,2). In the late 1990s and early 2000s, internet access was mostly through slow dial-up connections; nevertheless, the ISP industry grew rapidly under liberalized policies, reaching over 180 registered ISPs by 2005 [oai_citation_attribution:2‡en.wikipedia.org](https://en.wikipedia.org/wiki/Internet_in_Bangladesh#:~:text=In%20June%201996%20the%20first,2). A major milestone came in May 2006 when Bangladesh connected to its first submarine fiber-optic cable, the SEA-ME-WE 4 consortium, via a landing station at Cox’s Bazar [oai_citation_attribution:3‡bcs.org.bd](https://bcs.org.bd/en/blog/evolution-of-the-internet-in-bangladesh#:~:text=Internet%2C%20all%20of%20a%20sudden,transmission%20speeds%20intended%20to%20accommodate). This significantly increased the country’s bandwidth and reduced dependence on costly satellite links. Mobile internet began around 2005 with GPRS/EDGE on 2G networks [oai_citation_attribution:4‡bcs.org.bd](https://bcs.org.bd/en/blog/evolution-of-the-internet-in-bangladesh#:~:text=the%20most%20remarkable%20years%20in,changer%20after%20Bangladesh%20got%20connected), but truly accelerated after 3G services launched in 2013 and 4G in 2018, bringing broadband to all 64 districts. As a result, internet usage soared: by March 2021 Bangladesh had about 116 million internet subscribers (roughly 70% of the population) [oai_citation_attribution:5‡en.wikipedia.org](https://en.wikipedia.org/wiki/Internet_in_Bangladesh#:~:text=The%20Internet%20in%20Bangladesh%20has,started%20the%204G%20network%20service). By the end of 2023, users surpassed 131 million, the vast majority on mobile devices (118.5 million mobile data users) versus around 12.9 million fixed broadband subscribers [oai_citation_attribution:6‡wicinternet.org](https://www.wicinternet.org/2024-02/18/c_990134.htm#:~:text=The%20Bangladesh%20Telecommunication%20Regulatory%20Commission,88%20million%20broadband%20internet%20users). Today, Bangladesh’s internet ecosystem is one of the largest among developing nations, supported by several submarine cables, nationwide fiber-optic networks, and a growing emphasis on digital services under the “Digital Bangladesh” initiative.",
+    "key_statistics": {
+      "internet_users": {
+        "2000": 186000,
+        "2009": 617300,
+        "2011": 5501609,
+        "2019": 93702000,
+        "2021": 116000000,
+        "2023": 131000000
+      },
+      "mobile_internet_subscribers": {
+        "2023": 118490000,
+        "2021": 104000000,
+        "2013": 20000000
+      },
+      "fixed_broadband_subscribers": {
+        "2009": 50000,
+        "2016": 3112000,
+        "2018": 5735000,
+        "2023": 12880000
+      },
+      "broadband_penetration_percent": {
+        "2009": "0.4%",
+        "2019": "56%",
+        "2023": "77%"
+      },
+      "isp_count": {
+        "year_2005_registered_isps": 180,
+        "as_of_2023": {
+          "nationwide_isps": 124,
+          "regional_divisional_isps": 479,
+          "local_isps": 2206,
+          "total_isps_all_categories": 2809
+        }
+      },
+      "internet_exchange_points": {
+        "first_ixp_established": 2004,
+        "number_of_ixps_2025": 8,
+        "primary_ixp": "BDIX (est. 2004, ~131 members) [oai_citation_attribution:7‡bcs.org.bd](https://bcs.org.bd/en/blog/evolution-of-the-internet-in-bangladesh#:~:text=Service%20providers%20were%20then%20operating,In)"
+      },
+      "fiber_optic_connectivity": {
+        "backbone_coverage": "All 64 districts and 495 upazilas (sub-districts) are connected via fiber backbone",
+        "rural_connectivity": "109,244 rural government offices (union parishads, schools, etc.) connected with broadband by 2022 [oai_citation_attribution:8‡pressxpress.org](https://pressxpress.org/2023/11/02/unveiling-btrcs-new-broadband-policy/#:~:text=However%2C%20as%20part%20of%20the,were%20slated%20to%20receive%20enhanced)",
+        "nttn_operators": 2
+      }
+    },
+    "milestones": [
+      {
+        "year": 1993,
+        "event": "First email services via dial-up bulletin board systems (limited offline Internet access for ~500 users)"
+      },
+      {
+        "year": 1996,
+        "event": "Launch of first commercial Internet service (VSAT-based) by ISN; government issues first ISP licenses [oai_citation_attribution:9‡bcs.org.bd](https://bcs.org.bd/en/blog/evolution-of-the-internet-in-bangladesh#:~:text=that%20year%20with%20offline%20emailing,technology%20to%20provide%20Internet%20service) [oai_citation_attribution:10‡en.wikipedia.org](https://en.wikipedia.org/wiki/Internet_in_Bangladesh#:~:text=In%20June%201996%20the%20first,2)"
+      },
+      {
+        "year": 2000,
+        "event": "Bangladesh gets its own country-code domain .bd (delegated for local administration) [oai_citation_attribution:11‡bcs.org.bd](https://bcs.org.bd/en/blog/evolution-of-the-internet-in-bangladesh#:~:text=identity%20in%20cyberspace%20while%20having,upgrading%20the%20existing%20network%20infrastructure)"
+      },
+      {
+        "year": 2004,
+        "event": "Bangladesh Internet Exchange (BDIX), the first IXP, is established to keep local traffic domestic [oai_citation_attribution:12‡bcs.org.bd](https://bcs.org.bd/en/blog/evolution-of-the-internet-in-bangladesh#:~:text=Service%20providers%20were%20then%20operating,In)"
+      },
+      {
+        "year": 2005,
+        "event": "Introduction of metropolitan fiber-optic connectivity and mobile Internet (GPRS/EDGE) extends coverage nationwide [oai_citation_attribution:13‡bcs.org.bd](https://bcs.org.bd/en/blog/evolution-of-the-internet-in-bangladesh#:~:text=the%20most%20remarkable%20years%20in,submarine%20communications%20cable%20system%20that)"
+      },
+      {
+        "year": 2006,
+        "event": "First submarine cable SEA-ME-WE 4 goes live (20 May), linking Bangladesh to the global fiber network [oai_citation_attribution:14‡bcs.org.bd](https://bcs.org.bd/en/blog/evolution-of-the-internet-in-bangladesh#:~:text=Internet%2C%20all%20of%20a%20sudden,transmission%20speeds%20intended%20to%20accommodate)"
+      },
+      {
+        "year": 2007,
+        "event": "Government enacts ILDTS Policy, creating IIG/IGW/ICX/IPTSP licenses [oai_citation_attribution:15‡bcs.org.bd](https://bcs.org.bd/en/blog/evolution-of-the-internet-in-bangladesh#:~:text=of%202007%2C%20which%20was%20one,Customer%20complaints); industry forms BDCERT cyber response team [oai_citation_attribution:16‡bcs.org.bd](https://bcs.org.bd/en/blog/evolution-of-the-internet-in-bangladesh#:~:text=drastically,an%20incident%20response%20team%2C%20BDCERT)"
+      },
+      {
+        "year": 2008,
+        "event": "State-owned BTTB converted to BTCL; Submarine Cable Project spun off into BSCCL (submarine cable company) [oai_citation_attribution:17‡en.wikipedia.org](https://en.wikipedia.org/wiki/Telecommunications_in_Bangladesh#:~:text=%2A%202005%3A%20Egypt,IPTSP%29%20Operators%20launched)"
+      },
+      {
+        "year": 2009,
+        "event": "WiMAX broadband services launched by Banglalion and Qubee [oai_citation_attribution:18‡en.wikipedia.org](https://en.wikipedia.org/wiki/Internet_in_Bangladesh#:~:text=Three%20companies%2C%20BanglaLion%20Communications%20Ltd,brink%20of%20extinction); Nationwide Telecommunication Transmission Network (NTTN) operators licensed to expand fiber backbone [oai_citation_attribution:19‡bcs.org.bd](https://bcs.org.bd/en/blog/evolution-of-the-internet-in-bangladesh#:~:text=reality%2C%20they%20were%20bound%20to,There%20was%20no%20redundancy)"
+      },
+      {
+        "year": 2010,
+        "event": "“Digital Bangladesh 2021” initiative begins; 4,501 Union Digital Centers inaugurated to provide e-services in all unions [oai_citation_attribution:20‡undp.org](https://www.undp.org/bangladesh/publications/fostering-transformation-through-digital-centre#:~:text=)"
+      },
+      {
+        "year": 2012,
+        "event": "International Terrestrial Cable (ITC) licenses issued for cross-border fiber links, adding redundancy to submarine cable [oai_citation_attribution:21‡bcs.org.bd](https://bcs.org.bd/en/blog/evolution-of-the-internet-in-bangladesh#:~:text=Bangladesh%27s%20Internet%20history,6%20ITC%20licenses%20in%202012)"
+      },
+      {
+        "year": 2013,
+        "event": "3G mobile broadband launched nationwide by private operators (after Teletalk’s 2012 pilot) [oai_citation_attribution:22‡bcs.org.bd](https://bcs.org.bd/en/blog/evolution-of-the-internet-in-bangladesh#:~:text=In%202013%2C%20Bangladesh%20had%20witnessed,will%20serve%20as%20redundancy%20and)"
+      },
+      {
+        "year": 2017,
+        "event": "Second submarine cable SEA-ME-WE 5 activated (landing at Kuakata), adding ~1,500 Gbps capacity and redundancy [oai_citation_attribution:23‡bcs.org.bd](https://bcs.org.bd/en/blog/evolution-of-the-internet-in-bangladesh#:~:text=In%202013%2C%20Bangladesh%20had%20witnessed,will%20serve%20as%20redundancy%20and)"
+      },
+      {
+        "year": 2018,
+        "event": "4G/LTE mobile services rolled out in major cities [oai_citation_attribution:24‡bcs.org.bd](https://bcs.org.bd/en/blog/evolution-of-the-internet-in-bangladesh#:~:text=cable%20landing%20station%20is%20set,the%20father%20of%20the%20nation); Bangladesh’s first communications satellite (Bangabandhu-1) launched [oai_citation_attribution:25‡bcs.org.bd](https://bcs.org.bd/en/blog/evolution-of-the-internet-in-bangladesh#:~:text=divisional%20headquarters%20instantly,the%20father%20of%20the%20nation)"
+      },
+      {
+        "year": 2021,
+        "event": "Internet subscribers reach ~116 million (70% penetration) [oai_citation_attribution:26‡en.wikipedia.org](https://en.wikipedia.org/wiki/Internet_in_Bangladesh#:~:text=The%20Internet%20in%20Bangladesh%20has,started%20the%204G%20network%20service); state-run Teletalk launches trial 5G service in Dhaka [oai_citation_attribution:27‡en.wikipedia.org](https://en.wikipedia.org/wiki/Telecommunications_in_Bangladesh#:~:text=,with%20approximately%2020%2C600%20towers%20in)"
+      },
+      {
+        "year": 2022,
+        "event": "Completion of Info-Sarker Phase 3: over 109,000 village-level govt institutions get broadband connectivity [oai_citation_attribution:28‡pressxpress.org](https://pressxpress.org/2023/11/02/unveiling-btrcs-new-broadband-policy/#:~:text=However%2C%20as%20part%20of%20the,were%20slated%20to%20receive%20enhanced)"
+      },
+      {
+        "year": 2023,
+        "event": "Total internet users surpass 130 million [oai_citation_attribution:29‡wicinternet.org](https://www.wicinternet.org/2024-02/18/c_990134.htm#:~:text=The%20Bangladesh%20Telecommunication%20Regulatory%20Commission,88%20million%20broadband%20internet%20users); BTRC drafts new National Broadband Policy to achieve universal high-speed access"
+      }
+    ],
+    "infrastructure": {
+      "regulator": "Bangladesh Telecommunication Regulatory Commission (BTRC) – Established in 2002 under the Telecom Act 2001 as the independent regulator for telecom and internet services [oai_citation_attribution:30‡en.wikipedia.org](https://en.wikipedia.org/wiki/Telecommunications_in_Bangladesh#:~:text=,into%20Bangladesh%20Telecommunications%20Company%20Limited). BTRC issues licenses (ISP, mobile, IIG, etc.), allocates spectrum, and oversees industry compliance.",
+      "bsccl": "Bangladesh Submarine Cable Company Ltd (BSCCL) – Formed in July 2008 to manage and operate international submarine cable connectivity [oai_citation_attribution:31‡en.wikipedia.org](https://en.wikipedia.org/wiki/Telecommunications_in_Bangladesh#:~:text=%2A%202005%3A%20Egypt,IPTSP%29%20Operators%20launched). BSCCL owns Bangladesh’s stakes in the SEA-ME-WE 4 and 5 undersea cables, and is deploying the upcoming SEA-ME-WE 6, providing the country with bandwidth and redundancy.",
+      "major_isps": "Major ISPs – The four mobile network operators (Grameenphone, Robi Axiata, Banglalink, Teletalk) provide the bulk of internet access, together serving over 118 million mobile data users [oai_citation_attribution:32‡wicinternet.org](https://www.wicinternet.org/2024-02/18/c_990134.htm#:~:text=The%20Bangladesh%20Telecommunication%20Regulatory%20Commission,88%20million%20broadband%20internet%20users). In the fixed broadband sector, hundreds of ISPs (often via fiber or wireless last-mile) serve ~13 million subscribers; top nationwide ISPs include those under the ISP Association of Bangladesh (ISPAB).",
+      "submarine_cables": [
+        {
+          "name": "SEA-ME-WE 4",
+          "launch_year": 2006,
+          "landing_point": "Cox’s Bazar",
+          "capacity": "1.28 Tbps design capacity",
+          "details": "18,800 km consortium cable linking SE Asia-Middle East-Western Europe; first international submarine link for Bangladesh [oai_citation_attribution:33‡bcs.org.bd](https://bcs.org.bd/en/blog/evolution-of-the-internet-in-bangladesh#:~:text=Internet%2C%20all%20of%20a%20sudden,transmission%20speeds%20intended%20to%20accommodate)"
+        },
+        {
+          "name": "SEA-ME-WE 5",
+          "launch_year": 2017,
+          "landing_point": "Kuakata (Patuakhali)",
+          "capacity": "Approximately 24 Tbps design",
+          "details": "Second submarine cable system for Bangladesh, providing an additional high-speed route and reducing reliance on any single cable [oai_citation_attribution:34‡bcs.org.bd](https://bcs.org.bd/en/blog/evolution-of-the-internet-in-bangladesh#:~:text=In%202013%2C%20Bangladesh%20had%20witnessed,will%20serve%20as%20redundancy%20and)"
+        },
+        {
+          "name": "SEA-ME-WE 6",
+          "launch_year": 2025,
+          "landing_point": "Cox’s Bazar (planned)",
+          "capacity": "Potential >30 Tbps (newest technology)",
+          "details": "Third submarine cable (under construction), expected to go live by 2025 to further boost international bandwidth and network resilience"
+        }
+      ],
+      "fiber_optic_network": "Fiber-Optic Network – Nationwide fiber connectivity has expanded rapidly. Two private Nationwide Telecommunication Transmission Network (NTTN) operators (Fiber@Home and Summit Communications, licensed 2009) built extensive fiber backbones linking all districts and towns [oai_citation_attribution:35‡bcs.org.bd](https://bcs.org.bd/en/blog/evolution-of-the-internet-in-bangladesh#:~:text=reality%2C%20they%20were%20bound%20to,There%20was%20no%20redundancy). Along with fibers from power utilities and BTCL, Bangladesh has tens of thousands of kilometers of fiber optics, reaching even rural union parishads. By 2022, fiber-based broadband access was extended to over 100,000 rural institutions under government projects [oai_citation_attribution:36‡pressxpress.org](https://pressxpress.org/2023/11/02/unveiling-btrcs-new-broadband-policy/#:~:text=However%2C%20as%20part%20of%20the,were%20slated%20to%20receive%20enhanced)."
+    },
+    "digital_inclusion": [
+      {
+        "initiative": "Digital Bangladesh Vision 2021",
+        "launch_year": 2009,
+        "description": "A government vision to transform the country through ICT by the year 2021. It prioritized expanding internet connectivity, e-governance, IT education, and digital services to achieve middle-income status. This agenda drove numerous projects in infrastructure, connectivity, and digital literacy."
+      },
+      {
+        "initiative": "Union Digital Centers (UDC)",
+        "launch_year": 2010,
+        "description": "One-stop service outlets at the union (village council) level. In November 2010, 4,501 Union Information and Service Centres were launched nationwide [oai_citation_attribution:37‡undp.org](https://www.undp.org/bangladesh/publications/fostering-transformation-through-digital-centre#:~:text=) – later termed UDCs – each staffed by local entrepreneurs. They provide rural citizens access to online government services, information, internet, mobile banking, and digital training, bridging the rural-urban digital divide."
+      },
+      {
+        "initiative": "Mobile Financial Services",
+        "launch_year": 2011,
+        "description": "Services like bKash (launched in 2011) and others have harnessed the widespread mobile internet to enable mobile banking, payments, and money transfers. By offering financial services via basic mobile phones, these initiatives have brought millions of unbanked people (especially in rural areas) into the formal financial system, exemplifying the power of digital inclusion."
+      },
+      {
+        "initiative": "Info-Sarker Connectivity Project",
+        "launch_year": 2010,
+        "description": "A multi-phase government program (supported by the World Bank) aimed at building ICT infrastructure and connectivity. Phase III (2017–2022) focused on last-mile connectivity: it established broadband internet connections in 109,244 rural government offices (schools, clinics, Union Parishads, etc.) [oai_citation_attribution:38‡pressxpress.org](https://pressxpress.org/2023/11/02/unveiling-btrcs-new-broadband-policy/#:~:text=However%2C%20as%20part%20of%20the,were%20slated%20to%20receive%20enhanced), ensuring that public services like healthcare, education, and agriculture advisories are accessible online even in remote areas."
+      },
+      {
+        "initiative": "e-Governance and Services",
+        "launch_year": 2014,
+        "description": "Bangladesh introduced numerous e-governance services to capitalize on growing internet access. A national e-Service portal (covering 25,000+ government websites) was rolled out, and systems like online tax filing, electronic public procurement, telemedicine platforms, digital land records, and mobile court apps were implemented. These efforts, often supported by the Access to Information (a2i) program, aim to make public services more transparent, efficient, and inclusive."
+      }
+    ],
+    "metadata_for_graphs": {
+      "internet_users_over_time": [
+        { "year": 2000, "users": 186000 },
+        { "year": 2009, "users": 617300 },
+        { "year": 2011, "users": 5501609 },
+        { "year": 2019, "users": 93702000 },
+        { "year": 2021, "users": 116000000 },
+        { "year": 2023, "users": 131000000 }
+      ],
+      "mobile_vs_broadband_subscribers": [
+        { "year": 2011, "mobile_users": 5400000, "fixed_broadband_users": 100000 },
+        { "year": 2018, "mobile_users": 88000000, "fixed_broadband_users": 5735000 },
+        { "year": 2023, "mobile_users": 118490000, "fixed_broadband_users": 12880000 }
+      ],
+      "submarine_cable_growth": [
+        { "year": 2005, "submarine_cables_live": 0, "international_bandwidth_gbps": 0.5 },
+        { "year": 2007, "submarine_cables_live": 1, "international_bandwidth_gbps": 10 },
+        { "year": 2018, "submarine_cables_live": 2, "international_bandwidth_gbps": 1500 },
+        { "year": 2025, "submarine_cables_live": 3, "international_bandwidth_gbps": 60000 }
+      ],
+      "isp_category_counts_2023": [
+        { "category": "Nationwide ISPs", "count": 124 },
+        { "category": "Divisional ISPs", "count": 479 },
+        { "category": "Local ISPs", "count": 2206 },
+        { "category": "International Internet Gateways (IIG)", "count": 34 }
+      ]
+    }
+  }

@@ -1,0 +1,8 @@
+{
+    "title": "Future Projections of Internet in Bangladesh",
+    "projections": [
+        { "year": "2025", "users": 130, "penetration": 80 },
+        { "year": "2030", "users": 150, "penetration": 90 },
+        { "year": "2040", "users": 180, "penetration": 98 }
+    ]
+}

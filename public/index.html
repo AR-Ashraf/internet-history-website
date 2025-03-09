@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet in Bangladesh - Overview</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Overview</a></li>
+                <li><a href="timeline.html">Timeline</a></li>
+                <li><a href="future.html">Future</a></li>
+            </ul>
+        </nav>
+        <h1>History of Internet in Bangladesh</h1>
+    </header>
+
+    <main>
+        <!-- General Overview Section -->
+        <section class="overview">
+            <h2>General Overview</h2>
+            <p id="general-overview"></p>
+        </section>
+
+        <!-- Key Stats -->
+        <section class="stats">
+            <h2>Key Statistics</h2>
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <p><strong>Total Users:</strong> <span id="total-users" class="counter"></span></p>
+                </div>
+                <div class="stat-box">
+                    <p><strong>Mobile Users:</strong> <span id="mobile-users" class="counter"></span></p>
+                </div>
+                <div class="stat-box">
+                    <p><strong>Broadband Users:</strong> <span id="broadband-users" class="counter"></span></p>
+                </div>
+                <div class="stat-box">
+                    <p><strong>Internet Penetration:</strong> <span id="penetration" class="counter"></span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Charts -->
+        <section class="charts">
+            <h2>Growth Trends</h2>
+            <div class="chart-container">
+                <canvas id="userGrowthChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="mobileVsBroadbandChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="submarineCablesChart"></canvas>
+            </div>
+        </section>
+
+        <!-- Comparison Tables -->
+        <section class="tables">
+            <h2>Comparison Data</h2>
+
+            <h3>ISP Distribution</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Number of ISPs</th>
+                    </tr>
+                </thead>
+                <tbody id="isp-table"></tbody>
+            </table>
+
+            <h3>Submarine Cables</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Cable Name</th>
+                        <th>Launch Year</th>
+                        <th>Capacity</th>
+                    </tr>
+                </thead>
+                <tbody id="submarine-table"></tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+    "title": "Internet Growth Timeline in Bangladesh",
+    "events": [
+        { "year": "1996", "event": "First ISP launched" },
+        { "year": "2006", "event": "Connected to SEA-ME-WE 4" },
+        { "year": "2013", "event": "3G launched" },
+        { "year": "2018", "event": "4G launched" },
+        { "year": "2021", "event": "5G trials started" }
+    ]
+}
