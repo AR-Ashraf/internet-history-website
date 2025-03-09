@@ -54,9 +54,6 @@ Option 2: Manually Open in Browser
 │   │   ├── 📜 overview.json  # Overview Data
 │   │   ├── 📜 timeline.json  # Timeline Data
 │   │   ├── 📜 future.json  # Future Data
-│   ├── 📂 assets
-│   │   ├── 📂 images  # Stores images
-│   │   ├── 📂 icons   # Stores icons (if any)
 │   ├── 📜 styles.css  # Main CSS file
 │   ├── 📜 script.js  # JavaScript for dynamic rendering
 │── 📜 README.md       # Documentation (this file)
