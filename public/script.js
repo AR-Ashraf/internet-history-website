@@ -1,16 +1,63 @@
 document.addEventListener("DOMContentLoaded", () => {
-    fetch('data/overview.json')
+    const page = window.location.pathname.split("/").pop().split(".")[0] || "index";
+
+    let jsonFile = "";
+    switch (page) {
+        case "index":
+            jsonFile = "overview.json";
+            break;
+        case "timeline":
+            jsonFile = "timeline.json";
+            break;
+        case "future":
+            jsonFile = "future.json";
+            break;
+        default:
+            jsonFile = "overview.json"; // Default to index if unknown page
+    }
+
+    fetch(`/data/${jsonFile}`)
         .then(response => response.json())
         .then(data => {
-            //document.getElementById("general-overview").innerText = data.general_overview;
-            insertFormattedOverview(data.general_overview);
-            updateStats(data);
-            createCharts(data.metadata_for_graphs);
-            populateTables(data);
-            animateNumbers();
+            console.log(`✅ Loaded ${jsonFile} successfully`, data);
+
+            if (page === "timeline") {
+                document.getElementById("timeline-description").innerText = data.description;
+                renderTimeline(data.events);
+            }
         })
-        .catch(error => console.error("Error fetching data:", error));
+        .catch(error => console.error(`❌ Error fetching ${jsonFile}:`, error));
 });
+
+// Function to Render Timeline
+function renderTimeline(events) {
+    const timelineContainer = document.getElementById("timeline");
+
+    if (!events || events.length === 0) {
+        timelineContainer.innerHTML = "<p>No timeline data available.</p>";
+        return;
+    }
+
+    events.forEach(event => {
+        const eventElement = document.createElement("div");
+        eventElement.classList.add("timeline-event");
+
+        eventElement.innerHTML = `
+            <div class="timeline-year">${event.year}</div>
+            <div class="timeline-content">
+                <div class="timeline-icon">${event.icon}</div>
+                <h3>${event.event}</h3>
+                <p><strong>${event.date}</strong></p>
+                <p>${event.details}</p>
+                <img src="${event.image}" class="timeline-image" alt="${event.event}">
+            </div>
+        `;
+
+        timelineContainer.appendChild(eventElement);
+    });
+
+    console.log("✅ Timeline Events Rendered Successfully");
+}
 
 function insertFormattedOverview(text) {
     const overviewSection = document.getElementById("general-overview");
