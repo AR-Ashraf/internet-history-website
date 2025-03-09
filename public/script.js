@@ -36,7 +36,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 renderInfrastructure(data.infrastructure_expansion);
                 renderMermaidFlowchart(data.milestones);
             } else if (page === "future") {
-                renderFuturePredictions(data);
+                renderFutureChallenges(data.challenges);
+                renderFutureProspects(data.future_prospects);
+                renderFutureRegulations(data.regulatory_and_policy);
             }
         })
         .catch(error => console.error(`❌ Error fetching ${jsonFile}:`, error));
@@ -371,4 +373,65 @@ function renderMermaidFlowchart(events) {
 
     document.getElementById("mermaid-container").innerHTML = `<pre class="mermaid">${mermaidCode}</pre>`;
     mermaid.init();
+}
+
+// Future.html Page Functions
+// Function to Render Future Challenges
+function renderFutureChallenges(challenges) {
+    const container = document.getElementById("future-challenges");
+
+    if (!container) {
+        console.error("❌ Future challenges container not found!");
+        return;
+    }
+
+    container.innerHTML = challenges.map(challenge => `
+        <div class="future-card">
+            <div class="future-icon">${challenge.icon}</div>
+            <h3>${challenge.title}</h3>
+            <p>${challenge.details}</p>
+        </div>
+    `).join("");
+
+    console.log("✅ Future Challenges Rendered Successfully");
+}
+
+// Function to Render Future Prospects
+function renderFutureProspects(prospects) {
+    const container = document.getElementById("future-prospects");
+
+    if (!container) {
+        console.error("❌ Future prospects container not found!");
+        return;
+    }
+
+    container.innerHTML = prospects.map(prospect => `
+        <div class="future-card">
+            <img src="${prospect.image}" class="future-image" alt="${prospect.title}">
+            <h3>${prospect.title}</h3>
+            <p>${prospect.details}</p>
+        </div>
+    `).join("");
+
+    console.log("✅ Future Prospects Rendered Successfully");
+}
+
+// Function to Render Future Regulations and Policies
+function renderFutureRegulations(regulations) {
+    const container = document.getElementById("future-regulations");
+
+    if (!container) {
+        console.error("❌ Future regulations container not found!");
+        return;
+    }
+
+    container.innerHTML = regulations.map(policy => `
+        <div class="future-card">
+            <div class="future-icon">${policy.icon}</div>
+            <h3>${policy.title}</h3>
+            <p>${policy.details}</p>
+        </div>
+    `).join("");
+
+    console.log("✅ Future Regulations Rendered Successfully");
 }

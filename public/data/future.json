@@ -1,8 +1,83 @@
 {
-    "title": "Future Projections of Internet in Bangladesh",
-    "projections": [
-        { "year": "2025", "users": 130, "penetration": 80 },
-        { "year": "2030", "users": 150, "penetration": 90 },
-        { "year": "2040", "users": 180, "penetration": 98 }
+    "title": "The Future of Internet in Bangladesh",
+    "description": "Explore the challenges and opportunities shaping the future of Bangladesh’s internet landscape. From bridging the digital divide to rolling out 5G and beyond, this page highlights the next era of connectivity and technological evolution.",
+    
+    "challenges": [
+        {
+            "title": "Urban-Rural Digital Divide",
+            "details": "Despite progress, rural areas still experience slower internet due to fewer towers and limited fiber backbones. Expanding connectivity in villages remains a top priority.",
+            "icon": "🌍"
+        },
+        {
+            "title": "Cost and Affordability",
+            "details": "Broadband access is still expensive for low-income groups. Government policies and subsidies could help make high-speed internet more accessible.",
+            "icon": "💰"
+        },
+        {
+            "title": "Infrastructure Strain",
+            "details": "The rise of over 116 million internet subscriptions has strained existing networks. More submarine cables and local internet exchanges are needed to prevent congestion.",
+            "icon": "🏗️"
+        },
+        {
+            "title": "Internet Censorship and Freedom",
+            "details": "Balancing security concerns with freedom of expression is a challenge. Previous restrictions on social media and website blackouts have raised concerns about digital rights.",
+            "icon": "🛑"
+        },
+        {
+            "title": "Cybersecurity",
+            "details": "With increased online activity, cyber threats such as financial fraud, hacking, and misinformation are growing. Strengthening cybersecurity infrastructure is critical.",
+            "icon": "🔐"
+        }
+    ],
+
+    "future_prospects": [
+        {
+            "title": "5G Expansion",
+            "details": "After initial 5G trials by Teletalk in 2021, major telecom operators are set to roll out nationwide 5G networks, enabling IoT, smart city applications, and ultra-fast connectivity.",
+            "icon": "📶",
+            "image": "images/5g-expansion.jpg"
+        },
+        {
+            "title": "Submarine Cable Growth",
+            "details": "Bangladesh is set to join SEA-ME-WE 6, potentially adding over 6 Tbps of international bandwidth, reducing congestion, and ensuring high-speed internet nationwide.",
+            "icon": "🌊",
+            "image": "images/submarine-2025.jpg"
+        },
+        {
+            "title": "Satellite Internet Integration",
+            "details": "With interest in Starlink and similar services, satellite internet could soon reach remote regions where fiber optics are not feasible, ensuring connectivity for all.",
+            "icon": "🛰️",
+            "image": "images/satellite-internet.jpg"
+        },
+        {
+            "title": "AI-Powered Internet Services",
+            "details": "AI will enhance cybersecurity, customer service chatbots, automated network management, and predictive maintenance for ISPs, improving efficiency and reliability.",
+            "icon": "🤖",
+            "image": "images/ai-internet.jpg"
+        },
+        {
+            "title": "Growth of Local Digital Economy",
+            "details": "More Bangladeshi apps, e-commerce platforms, fintech, and e-learning services are emerging, driving local innovation and making the internet more relevant for users.",
+            "icon": "📈",
+            "image": "images/digital-economy.jpg"
+        }
+    ],
+
+    "regulatory_and_policy": [
+        {
+            "title": "Privacy and Data Protection",
+            "details": "New policies are expected to regulate data protection, ensuring user privacy and secure digital transactions in an evolving internet landscape.",
+            "icon": "🛡️"
+        },
+        {
+            "title": "Digital Inclusion Programs",
+            "details": "Initiatives like UDCs and ICT education in schools will continue to bridge the digital literacy gap, ensuring more people can benefit from internet advancements.",
+            "icon": "🎓"
+        },
+        {
+            "title": "ISP and Mobile Market Competition",
+            "details": "Encouraging fair competition among ISPs and telecom operators will drive lower prices, improved service quality, and broader access across the country.",
+            "icon": "⚖️"
+        }
     ]
 }
